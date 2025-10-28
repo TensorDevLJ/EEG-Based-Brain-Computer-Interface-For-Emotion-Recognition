@@ -1,13 +1,29 @@
-.env
+# Node modules
 node_modules/
+frontend/node_modules/
 
-# Ignore Python virtual environment
-.venv/
-# Python cache and compiled files
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-# Environment files
+*.py[cod]
+venv/
+env/
+# Python virtual environments
+venv/
+.venv/
+env/
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment
 .env
-*.env
+.env.local
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

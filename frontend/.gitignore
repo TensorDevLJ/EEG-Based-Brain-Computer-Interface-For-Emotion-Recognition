@@ -1,0 +1,13 @@
+.env
+node_modules/
+
+# Ignore Python virtual environment
+.venv/
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Environment files
+.env
+*.env
